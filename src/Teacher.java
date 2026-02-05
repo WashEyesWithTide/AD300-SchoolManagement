@@ -5,4 +5,13 @@ public class Teacher {
         this.name = name;
         this.subject = subject;
     }
+    public String getName() {
+        return name;
+    }
+    public String getSubject() {
+        return subject;
+    }
+    public void displayInfo() {
+        System.out.println("    Name: " + name + ", Subject: " + subject);
+    }
 }

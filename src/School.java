@@ -19,4 +19,16 @@ public class School {
     public List<Department> getDepartments() {
         return departments;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void displayInfo() {
+        System.out.println("School: " + name);
+        System.out.println(" Departments: ");
+        for (Department dept : departments) {
+            dept.displayInfo();
+        }
+    }
 }

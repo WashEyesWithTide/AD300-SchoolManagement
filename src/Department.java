@@ -29,4 +29,18 @@ public class Department {
     public List<Student> getStudents() {
         return students;
     }
+    public String getName() {
+        return name;
+    }
+    public void displayInfo() {
+        System.out.println("  " + name);
+        System.out.println("   Teachers:");
+        for (Teacher teacher : teachers) {
+            teacher.displayInfo();
+        }
+        System.out.println("   Students:");
+        for (Student student : students) {
+            student.displayInfo();
+        }
+    }
 }

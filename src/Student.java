@@ -5,4 +5,13 @@ public class Student {
         this.name = name;
         this.grade = grade;
     }
+    public String getName() {
+        return name;
+    }
+    public int getGrade() {
+        return grade;
+    }
+    public void displayInfo() {
+        System.out.println("    Name: " + name + ", Grade: " + grade);
+    }
 }
