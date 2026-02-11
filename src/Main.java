@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        School school = new School("test");
+        School school = new School("Test High School");
         school.addDepartment(new Department("Science"));
         school.addDepartment(new Department("English"));
         school.getDepartments().get(0).addTeacher(new Teacher("Alice", "Physics"));

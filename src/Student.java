@@ -1,6 +1,6 @@
 public class Student {
-    public String name;
-    public int grade;
+    private String name;
+    private int grade;
     public Student(String name, int grade) {
         this.name = name;
         this.grade = grade;

@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Department {
-    public String name;
-    public List<Teacher> teachers = new ArrayList<>();
-    public List<Student> students = new ArrayList<>();
+    private String name;
+    private List<Teacher> teachers = new ArrayList<>();
+    private List<Student> students = new ArrayList<>();
 
     public Department(String name) {
         this.name = name;
